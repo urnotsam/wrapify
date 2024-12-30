@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A TypeScript framework for creating REST API wrappers.",
+  "main": "dist/apis/wrapify.js",
+  "types": "dist/apis/wrapify.d.ts",
+  "keywords": [
+    "api",
+    "typescript",
+    "rest",
+    "wrapper"
+  ],
+  "author": "Sam Sweet",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "format": "prettier --write 'src/**/*.{ts,js,json,md}'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "@typescript-eslint/parser": "^8.19.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

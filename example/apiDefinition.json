@@ -1,0 +1,15 @@
+{
+  "baseURL": "https://jsonplaceholder.typicode.com",
+  "endpoints": {
+    "getUser": {
+      "method": "GET",
+      "path": "/users/{id}",
+      "params": { "id": "string" }
+    },
+    "createPost": {
+      "method": "POST",
+      "path": "/posts",
+      "body": { "title": "string", "body": "string", "userId": "number" }
+    }
+  }
+}
