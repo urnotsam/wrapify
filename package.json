@@ -1,6 +1,6 @@
 {
   "name": "wrapify-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "A TypeScript framework for creating REST API wrappers.",
   "main": "dist/apis/index.js",
