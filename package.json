@@ -1,9 +1,10 @@
 {
+  "name": "wrapify-js",
   "version": "1.0.0",
   "type": "module",
   "description": "A TypeScript framework for creating REST API wrappers.",
-  "main": "dist/apis/wrapify.js",
-  "types": "dist/apis/wrapify.d.ts",
+  "main": "dist/apis/index.js",
+  "types": "dist/apis/index.d.ts",
   "keywords": [
     "api",
     "typescript",
@@ -12,6 +13,14 @@
   ],
   "author": "Sam Sweet",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urnotsam/wrapify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/urnotsam/wrapify/issues"
+  },
+  "homepage": "https://github.com/urnotsam/wrapify",
   "scripts": {
     "build": "tsc",
     "lint": "eslint 'src/**/*.{ts,js}'",

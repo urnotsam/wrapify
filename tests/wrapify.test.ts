@@ -1,4 +1,4 @@
-import { wrapify } from "../src/apis/apiGenerator.js";
+import { wrapify } from "../src/apis/index.js";
 import { ApiError } from "../src/core/error/ApiError.js";
 
 const definitionPath = "example/apiDefinition.json";
