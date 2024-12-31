@@ -17,7 +17,7 @@
 Install Wrapify via npm:
 
 ```bash
-npm install wrapify
+npm install wrapify-js
 ```
 
 ---
@@ -51,7 +51,7 @@ Save this file as `apiDefinition.json`.
 Use Wrapify to generate the API client:
 
 ```typescript
-import { wrapify } from "wrapify";
+import { wrapify } from "wrapify-js";
 
 const { api, middlewareManager, responseInterceptorManager, authManager } = wrapify("./apiDefinition.json");
 ```
